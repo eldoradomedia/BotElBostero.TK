@@ -1,5 +1,5 @@
 # BotElBostero.TK
-Repositorio del Sitio Bot El Bostero©.
+Repositorio del Sitio BotElBostero©.
 
 Coleccion de Partidos de Peñarol / Temporada 2024
 
