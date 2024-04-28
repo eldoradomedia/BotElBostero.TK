@@ -1,0 +1,72 @@
+---
+---
+
+
+@import "customized-bootstrap";
+
+@import "bootstrap/scss/bootstrap"; 
+
+$white:    #fff;
+$red:     #dc3545;
+$body-bg: $red;
+$body-color: $white;
+
+/* custom vars */
+$custom-font-size: 20px;
+
+.content {
+  font-size: $custom-font-size;
+}
+
+.primarycolor{
+    color: $primary; //using Bootstrap variable
+}
+
+#main-nav.affix {
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
+
+   .navbar-inner{
+     -webkit-border-radius: 0;
+     -moz-border-radius: 0;
+          border-radius: 0;
+       padding-left:40px;
+}
+@media (min-width: 768px) and (max-width: 979px) {
+  
+    .navbar-inner{
+     -webkit-border-radius: 0;
+     -moz-border-radius: 0;
+          border-radius: 0;
+        margin-left:-40px;
+        margin-right:-40px;
+       padding-left:80px;
+}
+}
+@media (max-width: 767px) {
+   
+    .navbar-inner{
+     -webkit-border-radius: 0;
+     -moz-border-radius: 0;
+          border-radius: 0;
+      margin-left:-40px;
+        margin-right:-40px;
+       padding-left:40px;
+}
+}
+
+@font-face {
+    font-family: 'kustom_cultureregular';
+    src: url('/assets/css/fonts/kustomculture-regular-webfont.woff2') format('woff2'),
+         url('/assets/css/fonts/kustomculture-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.kustom_culture {
+    font-family: 'kustom_cultureregular';
+}
