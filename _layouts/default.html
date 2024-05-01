@@ -4,25 +4,74 @@
  </head>
  <body>
 
-	<div class="container"> 
-   	 <div class="row"> 
-          <div class="col-md-12">
+	
+   	 
              {% include header.html %}
              {% include navbardark.html %}
-
+    <div class="container"> 
+          
+     <div class="row">
+          <div class="col-md-9">
 
              {{ content }}
+          
+          </div>
+          <div class="col-md-3">
+            {% include sidebardefault.html %}
+          </div>
+     </div>
+     <div class="row">
+          <div class="col-md-12">
+            {% include footer.html %}
+          </div>
+     </div>
 
 
-             {% include footer.html %}
+    </div> 
+ 
+ <script>
+  document.addEventListener("DOMContentLoaded", function () {
+  const scrollImages = document.querySelector(".scroll-images");
+  const scrollLength = scrollImages.scrollWidth - scrollImages.clientWidth;
+  const leftButton = document.querySelector(".left");
+  const rightButton = document.querySelector(".right");
 
+  function checkScroll() {
+    const currentScroll = scrollImages.scrollLeft;
+    if (currentScroll === 0) {
+      leftButton.setAttribute("disabled", "true");
+      rightButton.removeAttribute("disabled");
+    } else if (currentScroll === scrollLength) {
+      rightButton.setAttribute("disabled", "true");
+      leftButton.removeAttribute("disabled");
+    } else {
+      leftButton.removeAttribute("disabled");
+      rightButton.removeAttribute("disabled");
+    }
+  }
 
+  scrollImages.addEventListener("scroll", checkScroll);
+  window.addEventListener("resize", checkScroll);
+  checkScroll();
 
+  function leftScroll() {
+    scrollImages.scrollBy({
+      left: -300,
+      behavior: "smooth"
+    });
+  }
 
-          </div> 
-         </div> 
-        </div>
-   
+  function rightScroll() {
+    scrollImages.scrollBy({
+      left: 300,
+      behavior: "smooth"
+    });
+  }
+
+  leftButton.addEventListener("click", leftScroll);
+  rightButton.addEventListener("click", rightScroll);
+});
+ </script>
  <script src="{{'/node_modules/jquery/dist/jquery.min.js' | prepend: site.baseurl}}"></script>
  <script src="{{'/node_modules/@popperjs/core/dist/umd/popper.min.js' | prepend: site.baseurl}}"></script>
  <script src="{{'/node_modules/bootstrap/dist/js/bootstrap.min.js' | prepend: site.baseurl}}"></script>

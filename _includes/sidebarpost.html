@@ -1,0 +1,28 @@
+
+<!--<div class="card m-2" style="margin-top: 50px;">
+    <div class="card-header text-center kustom_culture">{{ page.category }} · JORNADA {{ page.jornada }}</div>
+    <img src="{{ page.image }}" width="100%">
+    <div class="card-body">
+      <h2 class="card-title kustom_culture">{{ page.partido }}</h2>
+      <span class="card-text dyuthi_regular">Partido Completo<br>Video: {{ page.video }}<br>Audio: {{ page.audio }}<br>Relato: {{ page.relato }}<br></span>
+      <a href="{{ page.downloadlink }}" class="btn btn-dark kustom_culture">Descargar </a>
+    </div>
+</div>-->
+
+<div class="cover-sidebar">
+  <div class="slide-images">
+    <div class="child">
+      <div class="card m-2 dyuthi_regular">
+        <div class="card-header text-center kustom_culture"><span>{{ page.category }} · JORNADA {{ page.jornada }}</span>
+        </div>
+        <img src="{{ page.image }}"/>
+        <div class="card-body">
+          <h2 class="card-title kustom_culture">{{ page.local }} X<br>
+        {{ page.visitante }}</h2>
+          <span class="card-text">Partido Completo<br>Video: {{ page.video }}<br>Audio: {{ page.audio }}<br>Relato: {{ page.relato }}<br></span>
+          <a href="{{ page.downloadlink }}" class="btn btn-dark kustom_culture">Descargar </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

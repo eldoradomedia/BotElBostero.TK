@@ -4,20 +4,20 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>jQuery | El Bostero © Bot</title>
+<title>El Bostero © Bot | Repositorio del Sitio El Bostero © Bot. 1 Coleccion de Partidos de Peñarol / Temporada 2024. Redacción PRESS ®</title>
 <meta name="generator" content="Jekyll v3.9.0" />
-<meta property="og:title" content="jQuery" />
+<meta property="og:title" content="El Bostero © Bot" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Repositorio del Sitio El Bostero © Bot. 1 Coleccion de Partidos de Peñarol / Temporada 2024. Redacción PRESS ®" />
 <meta property="og:description" content="Repositorio del Sitio El Bostero © Bot. 1 Coleccion de Partidos de Peñarol / Temporada 2024. Redacción PRESS ®" />
-<link rel="canonical" href="http://localhost:4000/node_modules/jquery/" />
-<meta property="og:url" content="http://localhost:4000/node_modules/jquery/" />
+<link rel="canonical" href="http://localhost:4000/penarol-directo/" />
+<meta property="og:url" content="http://localhost:4000/penarol-directo/" />
 <meta property="og:site_name" content="El Bostero © Bot" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="jQuery" />
+<meta property="twitter:title" content="El Bostero © Bot" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","description":"Repositorio del Sitio El Bostero © Bot. 1 Coleccion de Partidos de Peñarol / Temporada 2024. Redacción PRESS ®","headline":"jQuery","url":"http://localhost:4000/node_modules/jquery/"}</script>
+{"@context":"https://schema.org","@type":"WebPage","description":"Repositorio del Sitio El Bostero © Bot. 1 Coleccion de Partidos de Peñarol / Temporada 2024. Redacción PRESS ®","headline":"El Bostero © Bot","url":"http://localhost:4000/penarol-directo/"}</script>
 <!-- End Jekyll SEO tag -->
 <script src="https://kit.fontawesome.com/a59b9b09ab.js" crossorigin="anonymous"></script>
   <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Raleway" rel="stylesheet">
@@ -82,62 +82,11 @@
      <div class="row">
           <div class="col-md-9">
 
-             <h1 id="jquery">jQuery</h1>
+             <div class="espacio kustom_culture">
+  <h2>APERTURA 2024 · JORNADA 11 · LIVERPOOL X PEÑAROL</h2>
+</div>
 
-<blockquote>
-  <p>jQuery is a fast, small, and feature-rich JavaScript library.</p>
-</blockquote>
-
-<p>For information on how to get started and how to use jQuery, please see <a href="https://api.jquery.com/">jQuery’s documentation</a>.
-For source files and issues, please visit the <a href="https://github.com/jquery/jquery">jQuery repo</a>.</p>
-
-<p>If upgrading, please see the <a href="https://blog.jquery.com/2023/08/28/jquery-3-7-1-released-reliable-table-row-dimensions/">blog post for 3.7.1</a>. This includes notable differences from the previous version and a more readable changelog.</p>
-
-<h2 id="including-jquery">Including jQuery</h2>
-
-<p>Below are some of the most common ways to include jQuery.</p>
-
-<h3 id="browser">Browser</h3>
-
-<h4 id="script-tag">Script tag</h4>
-
-<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"https://code.jquery.com/jquery-3.7.1.min.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
-</code></pre></div></div>
-
-<h4 id="webpack--browserify--babel">Webpack / Browserify / Babel</h4>
-
-<p>There are several ways to use <a href="https://webpack.js.org/">Webpack</a>, <a href="http://browserify.org/">Browserify</a> or <a href="https://babeljs.io/">Babel</a>. For more information on using these tools, please refer to the corresponding project’s documentation. In the script, including jQuery will usually look like this:</p>
-
-<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">import</span> <span class="nx">$</span> <span class="k">from</span> <span class="dl">"</span><span class="s2">jquery</span><span class="dl">"</span><span class="p">;</span>
-</code></pre></div></div>
-
-<p>If you need to use jQuery in a file that’s not an ECMAScript module, you can use the CommonJS syntax:</p>
-
-<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">$</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span> <span class="dl">"</span><span class="s2">jquery</span><span class="dl">"</span> <span class="p">);</span>
-</code></pre></div></div>
-
-<h4 id="amd-asynchronous-module-definition">AMD (Asynchronous Module Definition)</h4>
-
-<p>AMD is a module format built for the browser. For more information, we recommend <a href="https://requirejs.org/docs/whyamd.html">require.js’ documentation</a>.</p>
-
-<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">define</span><span class="p">(</span> <span class="p">[</span> <span class="dl">"</span><span class="s2">jquery</span><span class="dl">"</span> <span class="p">],</span> <span class="kd">function</span><span class="p">(</span> <span class="nx">$</span> <span class="p">)</span> <span class="p">{</span>
-
-<span class="p">}</span> <span class="p">);</span>
-</code></pre></div></div>
-
-<h3 id="node">Node</h3>
-
-<p>To include jQuery in <a href="https://nodejs.org/">Node</a>, first install with npm.</p>
-
-<div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code>npm <span class="nb">install </span>jquery
-</code></pre></div></div>
-
-<p>For jQuery to work in Node, a window with a document is required. Since no such window exists natively in Node, one can be mocked by tools such as <a href="https://github.com/jsdom/jsdom">jsdom</a>. This can be useful for testing purposes.</p>
-
-<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="p">{</span> <span class="nx">JSDOM</span> <span class="p">}</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span> <span class="dl">"</span><span class="s2">jsdom</span><span class="dl">"</span> <span class="p">);</span>
-<span class="kd">const</span> <span class="p">{</span> <span class="nb">window</span> <span class="p">}</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">JSDOM</span><span class="p">(</span> <span class="dl">""</span> <span class="p">);</span>
-<span class="kd">const</span> <span class="nx">$</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span> <span class="dl">"</span><span class="s2">jquery</span><span class="dl">"</span> <span class="p">)(</span> <span class="nb">window</span> <span class="p">);</span>
-</code></pre></div></div>
+<iframe class="video responsive position-relative w-100 h-100 border-0" marginheight="0" marginwidth="0" src="https://d.daddylivehd.sx/embed/stream-391.php" name="iframe_a" scrolling="no" allowfullscreen="yes" width="100%" height="100%" frameborder="0">Your Browser Do not Support Iframe</iframe>
 
           
           </div>
@@ -154,8 +103,8 @@ For source files and issues, please visit the <a href="https://github.com/jquery
           <div class="card-body">
             <p class="card-title dyuthi_regular" id="countdown-clock">
             </p>
-            <span class="card-text">Día y hora: 03/05/2024 20:00 CET<br>Estadio: Estadio Belvedere<br>Localidad: Montevideo, Uruguay<br></span>
-            <a href="/penarol-directo/index.html" class="btn btn-dark kustom_culture">Ver Online </a>
+            <span class="card-text">Día y hora: 03/05/2024 20:00<br>Estadio: Estadio Belvedere<br>Localidad: Montevideo, Uruguay<br></span>
+            <a href="/penarol-directo.html" class="btn btn-dark kustom_culture">Ver Online </a>
           </div>
         </div>
         <script>
