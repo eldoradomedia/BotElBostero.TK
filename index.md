@@ -24,7 +24,7 @@ author: elbosterobot.tk
     <div class="child">
       <div class="card m-2">
         <div class="card-header text-center kustom_culture">{{ post.category }} · JORNADA {{ post.jornada }}</div>
-        <img src="{{ post.image }}" width="100%">
+        <img src="{{ site.url }}/{{ post.image }}" width="100%">
         <div class="card-body">
           <h2 class="card-title kustom_culture">{{ post.local }} X<br>
           {{ post.visitante }}</h2>
