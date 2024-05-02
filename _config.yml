@@ -13,12 +13,11 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title:  El Bostero © Bot
+title:  ELBOSTEROBOT.TK
 email:  eldoradosportmedia@gmail.com
-description: Repositorio del Sitio El Bostero © Bot. 1 Coleccion de Partidos de Peñarol
-  / Temporada 2024. Redacción PRESS ® 
-url: https://eldoradomedia.github.io/BotElBostero.TK
-repository: https://github.com/eldoradomedia/BotElBostero.TK
+description: Coleccion de Partidos de Peñarol / Temporada 2024.
+url: https://eldoradomedia.github.io/ELBOSTEROBOT.TK
+repository: https://github.com/eldoradomedia/ELBOSTEROBOT.TK
 twitter_username: CAPPRESS1587551
 github_username: eldoradomedia
 author:

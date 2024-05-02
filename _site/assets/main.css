@@ -3474,8 +3474,8 @@ textarea.form-control-lg { min-height: calc(1.5em + 1rem + calc(var(--bs-border-
 
 .primarycolor { color: #0d6efd; }
 
-@font-face { font-family: 'kustom_cultureregular'; src: url("/assets/css/fonts/kustomculture-regular-webfont.woff2") format("woff2"), url("/assets/css/fonts/kustomculture-regular-webfont.woff") format("woff"); font-weight: normal; font-style: normal; }
-@font-face { font-family: 'dyuthiregular'; src: url("/assets/css/fonts/dyuthi-regular-webfont.woff2") format("woff2"), url("/assets/css/fonts/dyuthi-regular-webfont.woff") format("woff"); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'kustom_cultureregular'; src: url("http://localhost:4000/assets/css/fonts/kustomculture-regular-webfont.woff2") format("woff2"), url("http://localhost:4000/assets/css/fonts/kustomculture-regular-webfont.woff") format("woff"); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'dyuthiregular'; src: url("http://localhost:4000/assets/css/fonts/dyuthi-regular-webfont.woff2") format("woff2"), url("http://localhost:4000/assets/css/fonts/dyuthi-regular-webfont.woff") format("woff"); font-weight: normal; font-style: normal; }
 .kustom_culture { font-family: 'kustom_cultureregular'; }
 
 .dyuthi_regular { font-family: 'dyuthiregular'; }
@@ -3485,3 +3485,5 @@ textarea.form-control-lg { min-height: calc(1.5em + 1rem + calc(var(--bs-border-
 .cover-sidebar { position: relative; padding: 0px 30px; margin-top: 200px; }
 
 #countdown-clock { text-align: left; font-size: 35px; }
+
+.footer { background-color: #212429; color: #ffffe0; }
