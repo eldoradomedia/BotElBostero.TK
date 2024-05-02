@@ -7,7 +7,7 @@ GRUPO: G
 partido: ATLÉTICO MG X PEÑAROL
 local: ATLÉTICO MG
 visitante: PEÑAROL
-image: /images/CAM-PEN.png
+image: '{{ site.url }}/images/CAM-PEN.png'
 downloadlink: https://uqload.to/t2gzqdilhwyg.html
 video: HEVC, 1280x720, 50.000 fps
 audio: mp3, 1ch, 44100 Hz
