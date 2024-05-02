@@ -29,7 +29,7 @@ author: elbosterobot.tk
           <h2 class="card-title kustom_culture">{{ post.local }} X<br>
           {{ post.visitante }}</h2>
           <span class="card-text dyuthi_regular">Relato: {{ post.relato }}</span><br>
-          <a href="{{ post.url }}" class="btn btn-dark kustom_culture">Ver Online </a>
+          <a href="{{ site.url }}{{ post.url }}" class="btn btn-dark kustom_culture">Ver Online </a>
         </div>
       </div>
     </div>
