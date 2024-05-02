@@ -24,8 +24,8 @@ $custom-font-size: 20px;
 
 @font-face {
     font-family: 'kustom_cultureregular';
-    src: url('/assets/css/fonts/kustomculture-regular-webfont.woff2') format('woff2'),
-         url('/assets/css/fonts/kustomculture-regular-webfont.woff') format('woff');
+    src: url('{{ site.url }}/assets/css/fonts/kustomculture-regular-webfont.woff2') format('woff2'),
+         url('{{ site.url }}/assets/css/fonts/kustomculture-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -33,8 +33,8 @@ $custom-font-size: 20px;
 
 @font-face {
     font-family: 'dyuthiregular';
-    src: url('/assets/css/fonts/dyuthi-regular-webfont.woff2') format('woff2'),
-         url('/assets/css/fonts/dyuthi-regular-webfont.woff') format('woff');
+    src: url('{{ site.url }}/assets/css/fonts/dyuthi-regular-webfont.woff2') format('woff2'),
+         url('{{ site.url }}/assets/css/fonts/dyuthi-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
